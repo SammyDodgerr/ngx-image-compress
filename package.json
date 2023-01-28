@@ -14,6 +14,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "prepare": "npm run build",
     "build": "ng build",
     "prepare-dataset": "node scripts/convert-assets-to-data-urls.js",
     "test": "ng test",
